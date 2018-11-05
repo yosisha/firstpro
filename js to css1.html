@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #hh{position:relative;background-color:aqua;font-family:Aharoni;font-size:40px;color:brown;}
+    </style>
+    <script>
+        function a() {
+            //document.getElementById("hh").style.color = "blue";
+            //document.getElementById("hh").style.fontSize = "70px";
+
+            var x = document.getElementById("hh").style;
+            x.color = "orange";
+            x.fontSize = "70px";
+            x.top = "40px";
+            x.left = "200px";
+
+        }
+    </script>
+</head>
+<body>
+    <input onclick="a()" type="button" value="button" /><br />
+    <b id="hh">hello</b>
+
+</body>
+</html>
